@@ -1,0 +1,369 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: flex;
+  
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+  position: fixed;
+
+}
+
+.container {
+  position: absolute;
+  width: 1500px;
+  height: 50px;
+}
+
+
+
+h2 {
+	font-family: 'Special Elite', cursive;
+	margin-left: 20px;
+    margin-top: 20px;
+	color: white;
+	position: fixed;
+	z-index: 1;
+
+}
+
+.titleb {
+	font-family: 'Khula', sans-serif;
+	font-size: 25px;
+	margin-left: 20px;
+    margin-top: 20px;
+	color: white;
+	position: fixed;
+	z-index: 1;
+}
+
+.title7 {
+	font-family: 'Khula', sans-serif;
+	font-size: 28px;
+	color: black;
+	margin-left: 20px;
+    margin-top: 20px;
+	position: fixed;
+	z-index: 1;
+}
+
+.title7b {
+	font-family: 'Special Elite', cursive;
+	margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+	color: white;
+	position: fixed;
+	z-index: 1;
+
+}
+
+.button_day {
+	position: fixed;
+	margin-right: auto;
+	top: 25px;
+	right: 25px;
+	z-index: 1;
+}
+
+.button_night {
+	position: fixed;
+	margin-right: auto;
+	top: 20px;
+	right: 20px;
+	z-index: 1;
+}
+
+.buttonnd {
+  background-color: white;
+  opacity: .8;
+  padding: 5px 5px 5px 5px;
+  position: fixed;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  margin: 600px 50px 50px 1200px;
+  font-family: 'Khula', sans-serif;
+
+}
+
+.buttonnd_6 {
+  background-color: black;
+  opacity: .8;
+  padding: 5px 5px 5px 5px;
+  position: fixed;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin: 600px 50px 50px 1200px;
+  font-family: 'Special Elite', cursive;
+  z-index: 1;
+
+} 
+
+.buttonnd_i {
+  background-color: black;
+  opacity: .8;
+  padding: 5px 5px 5px 5px;
+  position: fixed;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin: 600px 50px 50px 1200px;
+  font-family: 'Khula', sans-serif;
+
+}
+
+.buttonpd {
+  background-color: white;
+  opacity: .8;
+  padding: 5px 5px 5px 5px;
+  position: fixed;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  margin: 600px 50px 50px 120px;
+  font-family: 'Khula', sans-serif;
+
+}
+
+.buttonnd_b {
+  background-color: black;
+  opacity: .8;
+  padding: 5px 5px 5px 5px;
+  position: fixed;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin: 600px 50px 50px 1200px;
+  font-family: 'Special Elite', cursive;
+  z-index: 1;
+
+}
+
+.buttonpd_b {
+  background-color: black;
+  opacity: .8;
+  padding: 5px 5px 5px 5px;
+  position: fixed;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  margin: 600px 50px 50px 120px;
+  font-family: 'Special Elite', cursive;
+  z-index: 1;
+}
+
+.buttonnd-8 {
+  background-color: white;
+  opacity: .8;
+  padding: 5px 5px 5px 5px;
+  position: fixed;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  margin: 600px 50px 50px 1200px;
+  font-family: 'Khula', sans-serif;
+  z-index: 1;
+
+}
+
+.buttonpd-8 {
+  background-color: white;
+  opacity: .8;
+  padding: 5px 5px 5px 5px;
+  position: fixed;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  margin: 600px 50px 50px 120px;
+  font-family: 'Khula', sans-serif;
+
+}
+
+
+.text {
+	font-family: 'Special Elite', cursive;
+	font-size: 23px;
+	line-height: 1.2;
+	color: white;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 1000px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+
+.textb {
+	font-family: 'Khula', sans-serif;
+	font-size: 23px;
+	line-height: 1.2;
+	color: white;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 1000px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+
+.text7 {
+	font-family: 'Khula', sans-serif;
+	font-size: 23px;
+	line-height: 1.2;
+	color: black;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 1400px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+.text7b {
+	font-family: 'Special Elite', cursive;
+	font-size: 23px;
+	line-height: 1.2;
+	color: white;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 1750px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+
+.text8 {
+	font-family: 'Khula', sans-serif;
+	font-size: 23px;
+	line-height: 1.2;
+	color: black;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 1300px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+.text8b {
+	font-family: 'Special Elite', cursive;
+	font-size: 23px;
+	line-height: 1.2;
+	color: white;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 1250px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+
+.text9b {
+	font-family: 'Special Elite', cursive;
+	font-size: 23px;
+	line-height: 1.2;
+	color: white;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 1550px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+
+.text10 {
+	font-family: 'Khula', sans-serif;
+	font-size: 23px;
+	line-height: 1.2;
+	color: black;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 1000px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+.text10b {
+	font-family: 'Special Elite', cursive;
+	font-size: 23px;
+	line-height: 1.2;
+	color: white;
+	position: absolute;	
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-top: 1000px;
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+
+}
+
+.right {
+	display: block;
+	margin-left: auto;
+	width: 15%;
+}
+
+.watercolor-background1 {
+  position: fixed; 
+  background-size: auto;
+ }
+
+.watercolor-background2 {
+  position: fixed; 
+  background-size: auto;
+}
+
+.watercolor-background3 {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.sketch.js {
+	background: fixed;
+}
