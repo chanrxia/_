@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  
+  <a href="https://www.flaticon.com/authors/xnimrodx" title="xnimrodx"></a> <a href="https://www.flaticon.com/" title="Flaticon"> </a>
+<a href="https://www.flaticon.com/authors/xnimrodx" title="xnimrodx"></a> <a href="https://www.flaticon.com/" title="Flaticon"> </a>
+</head>
+
+<body>
+  <div id="css-selector">
+	<h1>MEMORY GAME</h1>
+
+	<div id="words" class="fadeOut">
+
+		<button onclick="newWord1(), newWord2(), newWord3(), newWord4()">Random Words</button>
+
+    <br />
+    <br />
+    <div id="word1Display"></div>
+    <div id="word2Display"></div>
+    <div id="word3Display"></div>
+    <div id="word4Display"></div>
+   </div>
+   <br /><br />
+
+
+<div id="guess" class="fadeIn">Type the words you just saw.
+   <br /><br />
+   <input type="text" id="guess1" placeholder="  word one">
+   <input type="text" id="guess2" placeholder="  word two">    
+   <input type="text" id="guess3" placeholder="  word three">
+   <input type="text" id="guess4" placeholder="  word four">
+
+   <button id="guess-btn" value="guess">guess</button>
+   
+   <br /><br />
+<div id="message"></div>
+<img id="icon"/>
+        <img id="icon2"/>
+        </br>
+Refresh to play again!
+      
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="script.js"></script>
+  </body>
+</html>

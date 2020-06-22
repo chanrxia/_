@@ -1,0 +1,19 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+.fa-home {
+  color: white;
+margin-left: 95vw;
+margin-top: 3vh;
+ position: absolute;
+}
+
+a:hover {
+  color: rgb(203, 203, 203);
+}
