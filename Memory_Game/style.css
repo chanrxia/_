@@ -24,6 +24,15 @@
 
 
 
+.fa-home {
+  color: white;
+margin-left: 95vw;
+margin-top: 3vh;
+ position: absolute;
+}
 
+a:hover {
+  color: gray;
+}
 
 
