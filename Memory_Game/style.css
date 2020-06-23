@@ -29,6 +29,7 @@
 right: 4vw;
 margin-top: 3vh;
  position: absolute;
+ z-index: 1;
 }
 
 a:hover {
