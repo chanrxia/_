@@ -44,6 +44,17 @@ body {
   height 70vh;
 }
 
+.fa-home {
+  color: white;
+margin-left: 95vw;
+margin-top: 3vh;
+ position: absolute;
+}
+
+a:hover {
+  color: #5e7eff;
+}
+
 
 h2 {
   font-family: 'Playfair Display', serif;
